@@ -1,0 +1,50 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #9FB3DF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	font-family: monospace;
+}
+
+
+h2 {
+	font-size: 2rem;
+	color: aliceblue;
+}
+
+
+.section {
+	text-align: center;
+}
+
+
+.btn {
+	font-size: 5rem;
+	border: none;
+	background: #FFF1D5;
+	border-radius: 10px;
+	padding: 15px;
+	filter: grayscale();
+	transition: filter .2s ease-in-out;
+	cursor: pointer;
+}
+
+
+.btn:hover {
+	filter: grayscale(0);
+}
+
+
+
+
+.emoji-name {
+	font-weight: 600;
+	color: darkblue;
+}
+
+
+
